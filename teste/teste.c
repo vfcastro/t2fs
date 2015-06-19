@@ -5,10 +5,9 @@
 
 int main()
 {	
-	char buffer[256];
+	read_superblock();
+	bla();
 
-	read_sector(0,buffer);
-	puts(buffer);
 
 	return 0;
 }
